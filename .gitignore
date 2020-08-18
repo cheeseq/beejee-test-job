@@ -7,6 +7,7 @@ web/app/composer.lock
 web/app/vendor/
 web/app/report/
 data/db/
+!data/db/schema.sql
 
 # PHPStorm
 .idea/
