@@ -15,7 +15,7 @@ class Router
 
         $this->addRoutes($router);
 
-        $router->set404("BaseController@notFound");
+        $router->set404("ErrorController@notFound");
 
         $router->run();
     }

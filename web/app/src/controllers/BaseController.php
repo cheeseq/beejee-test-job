@@ -22,11 +22,6 @@ abstract class BaseController
         $this->view = $this->app->getView();
     }
 
-    public function notFound()
-    {
-        $this->view->setContent('<p>Страница не найдена :(</p>');
-    }
-
     protected function redirect($location)
     {
         header("Location: $location");
